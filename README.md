@@ -1,3 +1,3 @@
-#TR İMEİ OLUŞTURMA
+# TR İMEİ OLUŞTURMA
 
 # KEY "mnks"
