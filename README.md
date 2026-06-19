@@ -25,15 +25,24 @@ When you initialize the program, the script triggers its secure verification tun
 
 If a user inputs an invalid string, it gently rejects the prompt. However, if the source code layout or binary indicators are modified, the **Anti-Tamper Integrity Protection** immediately catches the mutation, locks down the runtime environment completely, and flags the terminal profile.
 
+![Initial Security Authentication Sequence](ss1.png)  
+*Figure 1: Initial Security Authentication Sequence (ss1)*
+
 ### 2. Batch Generation & Live Network Telemetry (ss3)
 Once authorized, you can multiselect single or grouped manufacturers (e.g., Apple, Samsung, Xiaomi) or supply a custom 8-digit hardware index. 
 
 The core calculation loop generates unique, collision-free structures and pipes them into the **BTK Telecommunication Status Simulator**. Each item outputs alongside a colored alert matrix forecasting local device classification indicators, high-volume cloning risks, or dynamic tax profiles.
 
+![Real-time Output Matrix & Risk Allocation Mapping](ss3.png)  
+*Figure 2: Real-time Output Matrix & Risk Allocation Mapping (ss3)*
+
 ### 3. Timestamped Persistent Storage Export (ss2)
 Following successful data generation, the terminal runs file system operations and prompts the operator for batch persistence storage. 
 
 Selecting file output filters the console formatting out, isolates the raw 15-digit sequences, and seamlessly flushes them into dynamically named text resources formatted as `Brand_Count_Timestamp.txt`. This step prevents overwriting previously generated project data assets.
+
+![Structured Batch Output and File Persistence](ss2.png)  
+*Figure 3: Structured Batch Output and File Persistence (ss2)*
 
 ---
 
