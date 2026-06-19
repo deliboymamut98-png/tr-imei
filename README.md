@@ -1,2 +1,3 @@
-# tr-imei
-Türkiye İçin İmei Oluşturma Pro
+#TR İMEİ OLUŞTURMA
+
+# KEY "mnks"
