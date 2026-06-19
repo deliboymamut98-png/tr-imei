@@ -18,25 +18,22 @@ An advanced, secure, and production-grade **Turkish (BTK) Network Compatible IME
 
 ---
 
-## 📸 Application Workflow & Interface
+## 📸 Application Workflow & Screenshot Explanations
 
-### 1. Security Authentication & Handshake
-When initialized, the software challenges the user with a cryptographic handshake request requiring the signature key.
+### 1. Security Authentication & Handshake (ss1)
+When you initialize the program, the script triggers its secure verification tunnel. Before displaying the main menu, it requests the cryptographic signature string (`mnks`). 
 
-![Initial Security Authentication Sequence](ss1)  
-*Figure 1: Initial Security Authentication Sequence (ss1)*
+If a user inputs an invalid string, it gently rejects the prompt. However, if the source code layout or binary indicators are modified, the **Anti-Tamper Integrity Protection** immediately catches the mutation, locks down the runtime environment completely, and flags the terminal profile.
 
-### 2. Batch Generation & Live Network Telemetry
-Upon entering valid criteria, the application multi-threads unique Luhn-validated structures and maps them directly to their corresponding network behaviors.
+### 2. Batch Generation & Live Network Telemetry (ss3)
+Once authorized, you can multiselect single or grouped manufacturers (e.g., Apple, Samsung, Xiaomi) or supply a custom 8-digit hardware index. 
 
-![Real-time Output Matrix & Risk Allocation Mapping](ss3)  
-*Figure 2: Real-time Output Matrix & Risk Allocation Mapping (ss3)*
+The core calculation loop generates unique, collision-free structures and pipes them into the **BTK Telecommunication Status Simulator**. Each item outputs alongside a colored alert matrix forecasting local device classification indicators, high-volume cloning risks, or dynamic tax profiles.
 
-### 3. Timestamped Persistent Storage Export
-After generation, the software handles system I/O routines to output filtered results seamlessly into isolated workspace files.
+### 3. Timestamped Persistent Storage Export (ss2)
+Following successful data generation, the terminal runs file system operations and prompts the operator for batch persistence storage. 
 
-![Structured Batch Output and File Persistence](ss2)  
-*Figure 3: Structured Batch Output and File Persistence (ss2)*
+Selecting file output filters the console formatting out, isolates the raw 15-digit sequences, and seamlessly flushes them into dynamically named text resources formatted as `Brand_Count_Timestamp.txt`. This step prevents overwriting previously generated project data assets.
 
 ---
 
@@ -56,10 +53,6 @@ Every mobile station equipment identifier requires strict execution of the **Luh
 $$\text{Checksum} \equiv \sum_{i=1}^{n} d_i \pmod{10}$$
 
 The tool maps strings into integers, isolates every secondary index position, multiplies it by 2, resolves digit sums, and derives the necessary 15th character boundary via `calc_check_digit()` dynamically.
-
-### 📊 Cellular Allocation Data Map
-* **TAC (Type Allocation Code):** The first 8 digits representing targeted hardware models.
-* **SNR (Serial Number Range):** Isolated middle 6 digits randomized to eliminate repetitive collisions via unique internal set hashing (`set()`).
 
 ---
 
