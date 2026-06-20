@@ -71,7 +71,7 @@ Ensure your operating system environment includes Python 3.8+ and standard depen
 
 ```bash
 # Clone or move your script into the workspace directory
-cd tr-imei
+git clone https://github.com/deliboymamut98-png/tr-imei & cd tr-imei
 
 # Install essential color-mapping terminal utilities
 pip install colorama
